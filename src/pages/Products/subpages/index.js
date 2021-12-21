@@ -1,7 +1,5 @@
-import Products1 from './Products1';
-import Products2 from './Products2';
+import Product from './Product';
 
 export {
-  Products1,
-  Products2
+  Product,
 }
