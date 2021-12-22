@@ -1,5 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
+import styles from "./styles.module.css";
+
 const NavigateHeader = () => {
 
   const navigate = useNavigate();
@@ -24,11 +26,11 @@ const NavigateHeader = () => {
   }
 
   return (
-    <>
+    <div className={styles.navigate}>
       <button onClick={() => handleNavigate('back')}>Back</button>
       <button onClick={() => handleNavigate('home')}>Home</button>
       <button onClick={() => handleNavigate('next')}>Next</button>
-    </>
+    </div>
   )
 }
 

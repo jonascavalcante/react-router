@@ -1,10 +1,14 @@
-import { Menu } from "../../components";
+import { Header } from "../../components";
+
+import styles from "./styles.module.css";
 
 const About = () => {
-  return(
+  return (
     <section>
-      <Menu />
-      <h1>About</h1>
+      <Header />
+      <div className={styles.container}>
+        <h1>About</h1>
+      </div>
     </section>
   )
 }

@@ -1,0 +1,14 @@
+.navigate {
+  display: flex;
+  gap: 10px;
+}
+
+.navigate button {
+  display: block;
+  width: fit-content;
+  height: 30px;
+
+  padding: 0 10px;
+  color: white;
+  background-color: black;
+}

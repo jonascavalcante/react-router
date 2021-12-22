@@ -1,6 +1,8 @@
 import { useParams } from "react-router-dom";
 
-import { Menu, NavigateHeader } from "../../../../components";
+import styles from "./styles.module.css";
+
+import { Header } from "../../../../components";
 
 const Product = () => {
 
@@ -8,9 +10,10 @@ const Product = () => {
 
   return (
     <section>
-      <Menu />
-      <NavigateHeader />
-      <h2>Product{paramns.id}</h2>
+      <Header />
+      <div className={styles.container}>
+        <h2>Product{paramns.id}</h2>
+      </div>
     </section>
   )
 }
