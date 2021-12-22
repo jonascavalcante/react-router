@@ -1,0 +1,21 @@
+.nav {
+  border-bottom: 1px solid #000;
+}
+
+.nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.nav li {
+  list-style: none;
+}
+
+.nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}

@@ -1,8 +1,10 @@
 import { Link } from "react-router-dom"
 
+import styles from "./styles.module.css"
+
 const Menu = () => {
   return (
-    <nav>
+    <nav className={styles.nav}>
       <ul>
         <li><Link to='/'>Home</Link></li>
         <li><Link to='/About'>About</Link></li>
