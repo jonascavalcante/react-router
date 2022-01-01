@@ -1,6 +1,12 @@
 .container {
   padding: 10px 20px;
-  
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.nav {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -16,11 +22,16 @@
 }
 
 .nav a {
+  width: fit-content;
+  height: 30px;
+  padding: 0 10px;
+  
+  display: grid;
+  place-items: center;
+
   text-transform: uppercase;
   text-decoration: none;
-  color: black;
-}
 
-.nav a:hover {
-  text-decoration: underline;
+  color: white;
+  background-color: black;
 }

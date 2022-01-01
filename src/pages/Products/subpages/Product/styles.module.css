@@ -1,3 +1,24 @@
 .container {
   padding: 10px 20px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.container nav ul li {
+  list-style: none;
+}
+
+.container nav ul li button {
+  width: fit-content;
+  height: 30px;
+  padding: 0 10px;
+  color: white;
+  background-color: black;
 }
